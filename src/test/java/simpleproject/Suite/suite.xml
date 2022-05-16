@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="simpleProjectTest" verbose="0" parallel="none">
+	
+	
+	<parameter name="browser" value="chrome" />
+	<parameter name="platform" value="windows" />
+	<parameter name="suitname" value="Suite Test SimpleProject 1" />
+	<parameter name="starttunel" value="no" />
+	
+	<!-- <tests> -->
+	<test name="simpleProject-V0.0.1">
+		
+		<classes>
+			<class name="simpleproject.Tests.Login"/>
+			<!--<class name="pruebaprimeraoutlook.Tests.OL_EnvioCorreo"/>
+			
+		    <class name="pruebaprimeraoutlook.Tests.OL_LogOut"/>
+			<class name="pruebaprimeraoutlook.Tests.OL_SignIn"/>-->
+		</classes> 
+		
+	</test>
+</suite>

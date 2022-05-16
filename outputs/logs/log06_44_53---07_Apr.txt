@@ -1,0 +1,5 @@
+[18_45_15] - [OK] : Espera de 20 seg. realizada.
+[18_45_15] - [ERROR][Login][El elemento Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="main-header"]' no existe
+[18_45_18] - [OK] : Espera de 3 seg. realizada.
+/**********************************************************************************/ 
+[18_45_20] - [Cerrando chromedriver]

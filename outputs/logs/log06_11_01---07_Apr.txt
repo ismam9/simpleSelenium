@@ -1,0 +1,9 @@
+[18_11_23] - [OK] : Espera de 20 seg. realizada.
+[18_11_24] - [OK][Login][El elemento [[ChromeDriver: chrome on WINDOWS (954692679f5aa51f4a5537289bff32d8)] -> xpath: //*[@id="main-header"]] existe]
+[18_11_27] - [OK] : Espera de 3 seg. realizada.
+[18_11_27] - [OK] : Espera OK. Elemento [[ChromeDriver: chrome on WINDOWS (954692679f5aa51f4a5537289bff32d8)] -> xpath: //*[@id="btn-free-search"]] visible
+[18_11_27] - [OK] : Click correcto en: [[ChromeDriver: chrome on WINDOWS (954692679f5aa51f4a5537289bff32d8)] -> xpath: //*[@id="btn-free-search"]]
+[18_11_32] - [OK] : Espera de 5 seg. realizada.
+[18_11_35] - [OK] : Espera de 3 seg. realizada.
+/**********************************************************************************/ 
+[18_11_37] - [Cerrando chromedriver]

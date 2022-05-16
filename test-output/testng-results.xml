@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br><span style="color:black;">[<em><b><span style="color:grey;">18_45_15</span></b></em>] - <b><span style="color:green;">[OK]</span></b> : Espera de 20 seg. realizada.<br/></span><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style="color:black;">[<em><b><span style="color:grey;">18_45_15</span></b></em>] - <b><span style="color:red;">[ERROR]</span></b>[Login][El elemento Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="main-header"]' no existe<br/></span><br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style="color:black;">[<em><b><span style="color:grey;">18_45_18</span></b></em>] - <b><span style="color:green;">[OK]</span></b> : Espera de 3 seg. realizada.<br/></span><br/>]]>
+    </line>
+    <line>
+      <![CDATA[/**********************************************************************************/ 
+[18_45_20] - [Cerrando chromedriver]]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-07T18:44:52 CEST" name="simpleProjectTest" finished-at="2022-04-07T18:45:19 CEST" duration-ms="26345">
+    <groups>
+    </groups>
+    <test started-at="2022-04-07T18:44:52 CEST" name="simpleProject-V0.0.1" finished-at="2022-04-07T18:45:19 CEST" duration-ms="26345">
+      <class name="simpleproject.Tests.Login">
+        <test-method is-config="true" signature="setupReport(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:simpleproject.Tests.Login@6150c3ec]" started-at="2022-04-07T18:44:52 CEST" name="setupReport" finished-at="2022-04-07T18:44:53 CEST" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Suite Test SimpleProject 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:simpleproject.Tests.Login@6150c3ec]" started-at="2022-04-07T18:44:53 CEST" name="setupDriver" finished-at="2022-04-07T18:44:54 CEST" duration-ms="1714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OptParam1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[OptParam2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Suite Test SimpleProject 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="login()[pri:0, instance:simpleproject.Tests.Login@6150c3ec]" started-at="2022-04-07T18:44:54 CEST" name="login" description="Login" finished-at="2022-04-07T18:45:19 CEST" duration-ms="24234" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.fail(Assert.java:102)
+at simpleproject.Config.WebActions.extentReportFail(WebActions.java:575)
+at simpleproject.Tests.Login.login(Login.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br><span style="color:black;">[<em><b><span style="color:grey;">18_45_15</span></b></em>] - <b><span style="color:green;">[OK]</span></b> : Espera de 20 seg. realizada.<br/></span><br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style="color:black;">[<em><b><span style="color:grey;">18_45_15</span></b></em>] - <b><span style="color:red;">[ERROR]</span></b>[Login][El elemento Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="main-header"]' no existe<br/></span><br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style="color:black;">[<em><b><span style="color:grey;">18_45_18</span></b></em>] - <b><span style="color:green;">[OK]</span></b> : Espera de 3 seg. realizada.<br/></span><br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:simpleproject.Tests.Login@6150c3ec]" started-at="2022-04-07T18:45:19 CEST" name="getResult" finished-at="2022-04-07T18:45:19 CEST" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=FAILURE method=Login.login()[pri:0, instance:simpleproject.Tests.Login@6150c3ec] output=<br><span style="color:black;">[<em><b><span style="color:grey;">18_45_15</span></b></em>] - <b><span style="color:green;">[OK]</span></b> : Espera de 20 seg. realizada.<br/></span><br/>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:simpleproject.Tests.Login@6150c3ec]" started-at="2022-04-07T18:45:19 CEST" name="tearDown" finished-at="2022-04-07T18:45:19 CEST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="genReport()[pri:0, instance:simpleproject.Tests.Login@6150c3ec]" started-at="2022-04-07T18:45:19 CEST" name="genReport" finished-at="2022-04-07T18:45:20 CEST" duration-ms="921" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[/**********************************************************************************/ 
+[18_45_20] - [Cerrando chromedriver]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- genReport -->
+      </class> <!-- simpleproject.Tests.Login -->
+    </test> <!-- simpleProject-V0.0.1 -->
+  </suite> <!-- simpleProjectTest -->
+</testng-results>

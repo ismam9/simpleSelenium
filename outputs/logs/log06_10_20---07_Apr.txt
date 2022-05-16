@@ -1,0 +1,4 @@
+[18_10_23] - [ERROR][Login][El elemento Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="main-header"]' no existe
+[18_10_26] - [OK] : Espera de 3 seg. realizada.
+/**********************************************************************************/ 
+[18_10_27] - [Cerrando chromedriver]

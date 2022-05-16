@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css"?>
+<extentreports>
+	<configuration>
+		<theme>dark</theme>
+		<encoding>UTF-8</encoding>
+		<protocol>https</protocol>
+		<documentTitle>Auto - BM</documentTitle>
+		<reportName>Auto - BM</reportName>
+		<reportHeadline>Automation Report</reportHeadline>
+		<dateFormat>yyyy-MM-dd</dateFormat>
+		<timeFormat>HH:mm:ss</timeFormat>
+		<scripts>
+		<![CDATA[
+			$(document).ready(function() {
+                    
+            });
+            
+            var enlace = document.querySelector("#slide-out > li:nth-child(2) > a");
+			var texto = document.createElement("SPAN");
+		
+			var principal = document.querySelector("#slide-out > li:nth-child(1) > a");
+			var texto2 = document.createElement("SPAN");
+		
+			var dashboard = document.querySelector("#slide-out > li:nth-child(3) > a")
+			var texto3 = document.createElement("SPAN");
+		
+			texto.innerHTML = 'Categorías';
+			texto2.innerHTML = 'Principal';
+			texto3.innerHTML = 'Dashboard';
+			enlace.setAttribute("class","tooltip");
+			texto.setAttribute("class","tooltiptext");
+			principal.setAttribute("class","tooltip");
+			texto2.setAttribute("class","tooltiptext");
+			dashboard.setAttribute("class","tooltip");
+			texto3.setAttribute("class","tooltiptext");
+		
+			enlace.appendChild(texto);
+			principal.appendChild(texto2);
+			dashboard.appendChild(texto3);
+		]]>
+		</scripts>
+		<styles>
+		<![CDATA[
+		
+			/* -- [ status colors ] -- */
+		
+			.status.info {
+    			color: #FFFFFF;
+    			background-color: #CBCCCD;
+			}
+			
+			.test-status.skip, .status.skip {
+    			color: #FFFFFF;
+    			background-color: #33ACFF;
+			}
+			
+			.test-status.pass, .status.pass {
+    			color: #FFFFFF;
+   	 			background-color: #32cd32;
+			}
+			
+			.test-status.warning, .status.warning {
+    			color: #FFFFFF;
+   	 			background-color: orange;
+			}
+			
+			.test-status.fail, .status.fail {
+    			color: #FFFFFF;
+    			background-color: red;
+			}
+			.custom-title {
+			  height: 50px;
+			  width: 90%;
+			  display:inline-flex;
+					  align-items: center;
+					  justify-content: space-between;
+			}
+			
+			.logo-mtp {
+				height:45px;
+				width:auto;
+			}
+			
+			.bloque{
+				height:100%;
+			}
+		
+			.logo-empresa {
+				height:100%;
+				width:auto;
+				border-radius: 5px;
+				object-fit: contain;
+			}
+			
+			.suite-start-time {
+				display: none;
+			}
+			
+			.app-version{
+				color:#a4c639;
+			}
+			
+			/* -- [ screenshots ] -- */
+			
+			.screenshots {
+            	margin-top: 30px;
+       		}
+       		
+        	.screenshots > li {
+            	display: inline;
+        	}
+        	
+        	.screenshots > li img {
+            	border: 1px solid #ccc;
+            	color: blue;
+        	}
+        	
+        	::-webkit-scrollbar {
+    			background: aquamarine;
+    			width: 10px;
+			}
+			
+			.tooltip {
+		  position: relative;
+		  display: inline-block;
+		}
+		
+		.tooltip .tooltiptext {
+		  visibility: hidden;
+		  background-color: black;
+		  color: #fff;
+		  text-align: center;
+		  font-size: 12px;
+          padding: 2px;
+		 
+		  position: relative;
+		  z-index: auto;
+          
+		  top: 40%;
+		  left: 50%;
+		  margin-left: -88px; /* Use half of the width (120/2 = 60), to center the tooltip */
+		  
+		}
+		
+		.tooltip:hover .tooltiptext {
+		  visibility: visible;
+		}
+			
+		]]>
+		</styles>
+	</configuration>
+</extentreports>

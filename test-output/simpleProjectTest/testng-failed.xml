@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [simpleProjectTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="starttunel" value="no"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="suitname" value="Suite Test SimpleProject 1"/>
+  <parameter name="platform" value="windows"/>
+  <test thread-count="5" name="simpleProject-V0.0.1(failed)" verbose="0">
+    <classes>
+      <class name="simpleproject.Tests.Login">
+        <methods>
+          <include name="getResult"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="genReport"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- simpleproject.Tests.Login -->
+    </classes>
+  </test> <!-- simpleProject-V0.0.1(failed) -->
+</suite> <!-- Failed suite [simpleProjectTest] -->
